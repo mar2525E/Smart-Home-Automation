@@ -28,6 +28,10 @@ An IoT smart home system built on an ESP32 that automates outdoor lighting, a co
 
 ## How it works
 The sensors (PIR, LDR, flame, ultrasonic) send their readings to the ESP32, which runs periodic checks using BlynkTimer instead of blocking delays. Based on those readings it switches the relays or moves the servo. The ESP32 also connects to Blynk over WiFi, so the lamps, pump, and garage door can be controlled manually from the phone app.
+Now here some images of the model and some of the wiring!! 
+(image_2026-11-08_220544852.png)
+(image_2026-11-08_220555750.png)
+(image_2026-11-08_220612483.png)
 
 ## Development
 Built using the Waterfall methodology in five phases: Planning, Analysis, Design, Implementation, and Testing.
